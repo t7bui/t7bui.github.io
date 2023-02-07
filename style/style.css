@@ -39,13 +39,14 @@ body {
     color: #EBB2B2;
     background-color: white;
 }
+
 .logo {
     display: inline-block;
     width: 100px;
     height: 85px;
     vertical-align: top;
     margin-left: 5%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 /* Image container for Home Page */
