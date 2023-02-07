@@ -102,9 +102,23 @@ body {
 .text-container {
     display: grid;
     margin-right: 8%;
-
 }
 
+/* wonderfruit page style */
+.wonder-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+.wonder-img-container > img {
+    border: 1px solid black;
+    height: 400px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
 
 
 
