@@ -139,4 +139,23 @@ body {
     margin-bottom: 5%;
 }
 
+.banhtrang-img-container-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-gap: 10px;
+}
+
+.banhtrang-img-container-1 > img {
+    border: 1px solid black;
+    height: 400px;
+    text-align: center;
+    margin-top: 5%;
+    /* margin-left: 5%; */
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
 
