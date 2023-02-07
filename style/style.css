@@ -3,6 +3,7 @@ body {
     body: 0;
     font-family: Papyrus;
     background-color: white;
+    min-height: 100%;
 }
 
 .line {
