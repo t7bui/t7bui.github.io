@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    body: 0;
+    font-family: Papyrus;
+    background-color: white;
+}
+
+.line {
+    border-bottom: 2px solid #2E1503;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+.line-1 {
+    border-bottom: 2px dashed #795C34;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+/* Navigation bar style */
+.navigation-bar {
+    width: 100%;
+    background-color: white;
+}
+.navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    color: #2E1503;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;;
+    padding-top: 65px;
+    text-decoration: none;
+    font-size: 130%;
+    font-weight: bold;
+}
+.navigation-bar > a:hover, a:active {
+    color: #EBB2B2;
+    background-color: white;
+}
+.logo {
+    display: inline-block;
+    width: 100px;
+    height: 85px;
+    vertical-align: top;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+/* Image container for Home Page */
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.image-container a > img {
+    width: 300px;
+    height: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.image-container a:hover > img {
+    opacity: 0.60;
+}
+
+/* Image container for EVC projects page */
+.evc-img-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    column-gap: 25px;
+}
+.evc-img-container > img {
+    height: 300px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+/* About me */
+.aboutme-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    column-gap: 25px;
+    margin-left: 5%;
+}
+
+.aboutme-container > img {
+    
+    height: 300px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.text-container {
+    display: grid;
+    /* grid-template-rows: repeat(2, 1fr); */
+    margin-right: 8%;
+
+    /* column-gap: 25px; */
+
+}
+
+
+
+
