@@ -121,5 +121,22 @@ body {
     margin-bottom: 5%;
 }
 
+/* wonderfruit page style */
+.banhtrang-img-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.banhtrang-img-container > img {
+    border: 1px solid black;
+    height: 400px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
 
 
