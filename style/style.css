@@ -35,7 +35,7 @@ body {
     font-size: 130%;
     font-weight: bold;
 }
-.navigation-bar > a:hover, a:active {
+.navigation-bar > a:hover, a:active{
     color: #EBB2B2;
     background-color: white;
 }
