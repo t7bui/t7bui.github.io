@@ -1,54 +1,4 @@
-body {
-    margin: 0;
-    body: 0;
-    font-family: Papyrus;
-    background-color: white;
-    min-height: 100%;
-}
 
-.line {
-    border-bottom: 2px solid #2E1503;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 2%;
-}
-.line-1 {
-    border-bottom: 2px dashed #795C34;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 2%;
-}
-
-/* Navigation bar style */
-.navigation-bar {
-    width: 100%;
-    background-color: white;
-}
-.navigation-bar > a {
-    display: inline-block;
-    vertical-align: top;
-    color: #2E1503;
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;;
-    padding-top: 65px;
-    text-decoration: none;
-    font-size: 130%;
-    font-weight: bold;
-}
-.navigation-bar > a:hover, a:active{
-    color: #EBB2B2;
-    background-color: white;
-}
-
-.logo {
-    display: inline-block;
-    width: 100px;
-    height: 85px;
-    vertical-align: top;
-    margin-left: 5%;
-    margin-top: 20px;
-}
 
 /* Image container for Home Page */
 .image-container {
@@ -56,15 +6,31 @@ body {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.image-container a > img {
-    width: 300px;
-    height: 300px;
+.image-container a {
     padding-left: 50px;
-    padding-right: 50px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.image-container a > p {
+    padding-left: 30%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.image-container a > img {
+    /* width: 300px;
+    height: 300px; */
+    /* padding-left: 50psx;
+    padding-right: 50px; */
 }
 
 .image-container a:hover > img {
     opacity: 0.60;
+}
+
+.image-container a:visited {
+    color: black;
 }
 
 /* Image container for EVC projects page */
