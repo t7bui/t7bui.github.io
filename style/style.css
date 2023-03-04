@@ -28,6 +28,7 @@
 }
 
 .image-container a > p {
+    color: #2E1503;
     /* padding-left: 30%; */
     text-decoration: none;
     /* text-align: center; */
