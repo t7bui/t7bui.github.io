@@ -30,7 +30,7 @@
 .image-container a > p {
     /* padding-left: 30%; */
     text-decoration: none;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .image-container a:visited {
