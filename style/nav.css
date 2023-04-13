@@ -1,10 +1,21 @@
 body {
     margin: 0;
     body: 0;
-    font-family: Papyrus;
-    background-color: white;
+    font-family: 'Source Serif Pro';
+    background-color: rgba(121, 92, 52, 0.02);
     min-height: 100%;
+    color: #4B371C;
 }
+
+a {
+    text-decoration: none;
+    color: #4B371C;
+}
+
+a:hover {
+    color: #EBB2B2;
+}
+
 
 .line {
     border-bottom: 2px solid #2E1503;
@@ -27,25 +38,48 @@ body {
 .navigation-bar > a {
     display: inline-block;
     vertical-align: top;
-    color: #2E1503;
+    color: #4B371C;
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;;
     padding-top: 65px;
     text-decoration: none;
-    font-size: 130%;
-    font-weight: bold;
+    font-size: 150%;
+    /* font-weight: bold; */
 }
 .navigation-bar > a:hover, a:active{
     color: #EBB2B2;
     background-color: white;
 }
 
-.logo {
+.header img {
+    float: left;
+    margin-left: 10px;
+    width: 100px;
+    height: 85px;
+}
+
+.header h1 {
+    /* position: relative; */
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    color: #4B371C; 
+}
+
+.welcome-msg p {
+    font-size: 25px;
+    margin: 10%;
+    text-align: justify;
+    font-style: light;
+    /* color: #795C34; */
+
+}
+/* .logo {
     display: inline-block;
     width: 100px;
     height: 85px;
     vertical-align: top;
     margin-left: 5%;
     margin-top: 20px;
-}
+} */
