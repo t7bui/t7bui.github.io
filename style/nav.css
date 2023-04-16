@@ -31,7 +31,7 @@ a:hover {
 }
 
 /* Navigation bar style */
-.navigation-bar {
+/* .navigation-bar {
     width: 100%;
     background-color: white;
 }
@@ -45,12 +45,12 @@ a:hover {
     padding-top: 65px;
     text-decoration: none;
     font-size: 150%;
-    /* font-weight: bold; */
+    font-weight: bold;
 }
 .navigation-bar > a:hover, a:active{
     color: #EBB2B2;
     background-color: white;
-}
+} */
 
 .header img {
     float: left;
@@ -72,14 +72,4 @@ a:hover {
     margin: 10%;
     text-align: justify;
     font-style: light;
-    /* color: #795C34; */
-
 }
-/* .logo {
-    display: inline-block;
-    width: 100px;
-    height: 85px;
-    vertical-align: top;
-    margin-left: 5%;
-    margin-top: 20px;
-} */
