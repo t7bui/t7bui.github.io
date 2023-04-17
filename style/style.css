@@ -51,13 +51,9 @@
 
 .text-container {
     display: grid;
-    /* text-align: justify; */
-    /* border-style: solid; */
 }
 
 .button {
-    /* background-color: #EBB2B2; */
-    /* border: none; */
     border-style: solid;
     border-color: 4B371C;
     float: right;
@@ -142,10 +138,6 @@
     margin-right: 5%;
     margin-bottom: 5%;
 }
-
-
-
-
 
 /* wonderfruit page style */
 .wonder-img-container {

@@ -25,28 +25,6 @@ a {
     margin-top: 2%;
 }
 
-/* Navigation bar style */
-/* .navigation-bar {
-    width: 100%;
-    background-color: white;
-}
-.navigation-bar > a {
-    display: inline-block;
-    vertical-align: top;
-    color: #4B371C;
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;;
-    padding-top: 65px;
-    text-decoration: none;
-    font-size: 150%;
-    font-weight: bold;
-}
-.navigation-bar > a:hover, a:active{
-    color: #EBB2B2;
-    background-color: white;
-} */
-
 .header {
     overflow: hidden;
     padding: 20px 10px;
@@ -83,10 +61,4 @@ a {
     align-items: center;
     font-size: 50px;
     color: #4B371C; 
-}
-
-.welcome-msg p {
-    font-size: 25px;
-    margin: 10%;
-    /* text-align: justify; */
 }
