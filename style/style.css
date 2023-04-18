@@ -1,9 +1,3 @@
-/* .welcome-msg p {
-    margin: 10%;
-    font-size: 25px;
-
-} */
-
 /* About me */
 .aboutme-container {
     display: grid;
@@ -12,6 +6,7 @@
     column-gap: 25px;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 5%;
     background-color: rgba(75, 55, 28, 0.2);
     padding: 70px;
     border-radius: 134px;
@@ -21,24 +16,19 @@
     border-radius: 50%;
     height: 400px;
     width: 400px;
-    /* text-align: center; */
-    /* margin-top: 5%;
-    margin-bottom: 5%; */
 }
 
 .project-grid {
     /* margin-top: 5%; */
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5%;
     display: grid;
     grid-template-columns: 300px 1fr;
     background-color: rgba(75, 55, 28, 0.2);
     border-radius: 100px;
-    /* grid-gap: 40px; */
     place-items: center;
     padding: 30px;
-    /* border-style: solid; */
     
 }
 
@@ -68,13 +58,6 @@
 .button:hover {
     background-color: #E5B36E;
 }
-
-/* .project-grid a {
-    font-size: 20px;
-}
-
-
-
 
 /* Image container for Home Page */
 .image-container {
