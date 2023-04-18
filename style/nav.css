@@ -38,7 +38,8 @@ a {
 }
 .header a {
     /* text-align: left; */
-    padding-top: 45px;
+    /* padding-top: 100px; */
+    line-height: 2em;
     padding: 20px;
     font-size: 22px;
     /* background-color: #E5B36E;Z */
