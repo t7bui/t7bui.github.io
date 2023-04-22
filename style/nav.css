@@ -22,11 +22,10 @@ a {
     border-bottom: 2px dashed #795C34;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 2%;
 }
 
 .header {
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 20px 10px;
     margin-top: 1%;
     margin-right: 10%;

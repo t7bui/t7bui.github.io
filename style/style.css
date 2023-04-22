@@ -7,7 +7,7 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5%;
-    background-color: rgba(75, 55, 28, 0.2);
+    /* background-color: rgba(75, 55, 28, 0.2); */
     padding: 70px;
     border-radius: 134px;
 }
@@ -30,6 +30,10 @@
         height: 320px;
         width: 320px
     }
+}
+
+#projects {
+    text-align: center;
 }
 
 .project-grid {
