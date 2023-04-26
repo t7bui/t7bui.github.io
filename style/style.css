@@ -4,12 +4,9 @@
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
     margin-top: 10%;
-    /* column-gap: 25px; */
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5%;
-    /* background-color: rgba(75, 55, 28, 0.2); */
-    /* padding: 70px; */
 }
 
 .aboutme-container > img {
@@ -22,7 +19,6 @@
 }
 
 .project-grid {
-    /* margin-top: 5%; */
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5%;
@@ -42,7 +38,6 @@
 
 .text-container {
     display: grid;
-    /* background-color: #2E1503; */
 }
 
 .text-container h3 {
