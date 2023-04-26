@@ -1,3 +1,10 @@
+
+:root {
+    --brown: #4B371C;
+    --orange: #E5B36E;
+    --lightbrown: rgba(75, 55, 28, 0.2);
+}
+
 /* About me */
 .aboutme-container {
     display: grid;
@@ -24,7 +31,7 @@
     margin-bottom: 5%;
     display: grid;
     grid-template-columns: 280px 1fr;
-    background-color: rgba(75, 55, 28, 0.2);
+    background-color: var(--lightbrown);
     border-radius: 80px;
     place-items: center;
     padding-right: 60px;
@@ -51,7 +58,6 @@
 
 .project-button {
     border-style: solid;
-    color: #4B371C;
     float: right;
     text-align: center;
     font-size: 2vw;
@@ -63,11 +69,11 @@
 }
 
 .project-button:hover {
-    background-color: #E5B36E;
+    background-color: var(--orange);
 }
 
 .button:hover {
-    background-color: #E5B36E;
+    background-color: var(--orange);
 }
 
 /* Image container for Home Page */
@@ -104,7 +110,6 @@
 }
 
 .image-container a > p {
-    color: #2E1503;
     text-decoration: none;
 }
 
