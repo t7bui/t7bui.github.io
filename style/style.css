@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
-    margin-top: 5%;
+    margin-top: 10%;
     /* column-gap: 25px; */
     margin-left: 10%;
     margin-right: 10%;
@@ -14,7 +14,6 @@
 
 .aboutme-container > img {
     border-radius: 50%;
-    /* height: 400px; */
     width: 75%;
 }
 
@@ -47,7 +46,7 @@
 }
 
 .text-container h3 {
-    font-size: 3vw;
+    font-size: 2.7vw;
 }
 
 .text-container p {
