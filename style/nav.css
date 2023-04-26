@@ -33,12 +33,13 @@ a {
 
 .header-right {
     float: right;
+    margin-top: 5%;
     /* margin-right: 10%; */
 }
 .header a {
-    line-height: 7em;
+    /* line-height: 7em; */
     padding-left: 3em;
-    font-size: 22px;
+    font-size: 1.9vw;
     /* background-color: #E5B36E;Z */
 
 }
@@ -49,8 +50,9 @@ a {
 .header img {
     float: left;
     margin-left: 2%;
-    width: 100px;
-    height: 95px;
+    /* width: 100px;
+    height: 95px; */
+    width: 11%;
 }
 
 .header h1 {

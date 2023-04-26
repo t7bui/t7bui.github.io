@@ -3,33 +3,19 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
-    column-gap: 25px;
+    margin-top: 5%;
+    /* column-gap: 25px; */
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5%;
     /* background-color: rgba(75, 55, 28, 0.2); */
-    padding: 70px;
-    border-radius: 134px;
+    /* padding: 70px; */
 }
 
 .aboutme-container > img {
     border-radius: 50%;
-    height: 400px;
-    width: 400px;
-}
-
-@media screen and (min-width: 1301px) {
-    div.aboutme-container img {
-      height: 400px;
-      width: 400px
-    }
-}
-
-@media screen and (max-width: 1300px) {
-    div.aboutme-container img {
-        height: 320px;
-        width: 320px
-    }
+    /* height: 400px; */
+    width: 75%;
 }
 
 #projects {
@@ -42,64 +28,48 @@
     margin-right: 10%;
     margin-bottom: 5%;
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 280px 1fr;
     background-color: rgba(75, 55, 28, 0.2);
-    border-radius: 100px;
+    border-radius: 80px;
     place-items: center;
-    padding: 30px;
+    padding-right: 60px;
     
 }
 
 .project-grid img {
     border-radius: 10%;
-    width: 200px;
-    height: 200px;
+    width: 75%;
 }
 
 .text-container {
     display: grid;
+    /* background-color: #2E1503; */
 }
 
-div.responsive-text {
-    display: grid;
-    text-align: left;
+.text-container h3 {
+    font-size: 3vw;
 }
 
-@media screen and (min-width: 1301px) {
-    div.responsive-text {
-      font-size: 30px;
-    }
-    .b {
-        font-size: 60px;
-    }
-    .a {
-        font-size: 30px;
-    }
-}
-  
-@media screen and (max-width: 1300px) {
-    div.responsive-text {
-        font-size: 25px;
-    }
-    .b {
-        font-size:55px;
-    }
-    .a {
-        font-size: 25px;
-    }
+.text-container p {
+    font-size: 2vw;
+    line-height: 1.25;
 }
 
-.button {
+.project-button {
     border-style: solid;
-    border-color: 4B371C;
-    float: right;
     color: #4B371C;
+    float: right;
     text-align: center;
-    font-size: 22px;
+    font-size: 2vw;
     text-decoration: none;
     cursor: pointer;
     padding: 15px;
     border-radius: 12px;
+    width: 25%;
+}
+
+.project-button:hover {
+    background-color: #E5B36E;
 }
 
 .button:hover {
@@ -146,79 +116,6 @@ div.responsive-text {
 
 .image-container a:visited {
     color: black;
-}
-
-/* Image container for EVC projects page 
-    - Create a grid to showcase the projects
-    Issue (or to do in future)
-    - users able to click and view photo in bigger scale
-*/
-.evc-img-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    place-items: center;
-    column-gap: 25px;
-}
-.evc-img-container > img {
-    height: 300px;
-    text-align: center;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-}
-
-/* wonderfruit page style */
-.wonder-img-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    place-items: center;
-}
-
-.wonder-img-container > img {
-    border: 1px solid black;
-    height: 400px;
-    text-align: center;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-}
-
-/* wonderfruit page style */
-.banhtrang-img-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    place-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-.banhtrang-img-container > img {
-    border: 1px solid black;
-    height: 400px;
-    text-align: center;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-}
-
-.banhtrang-img-container-1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    place-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    grid-gap: 10px;
-}
-
-.banhtrang-img-container-1 > img {
-    border: 1px solid black;
-    height: 400px;
-    text-align: center;
-    margin-top: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
 }
 
 
