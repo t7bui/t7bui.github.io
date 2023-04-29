@@ -3,6 +3,7 @@
     --brown: #4B371C;
     --orange: #E5B36E;
     --lightbrown: rgba(75, 55, 28, 0.2);
+    --transbrown: rgba(75, 55, 28, 0.03);
 }
 
 /* About me */
@@ -115,6 +116,24 @@
 
 .image-container a:visited {
     color: black;
+}
+
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: var(--transbrown);
+    justify-content: center;
+    margin: 5%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: #4B371C;
+}
+
+.resume > div {
+    margin: 2%;
 }
 
 
