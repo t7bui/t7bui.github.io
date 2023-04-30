@@ -136,4 +136,16 @@
     margin: 2%;
 }
 
+.title {
+    display: flex;
+    flex-direction: row;
+}
+
+.resume h3 {
+    font-size: 2vw;
+}
+.resume p, ul {
+    font-size: 1.75vw;
+}
+
 
