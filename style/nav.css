@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    body: 0;
     font-family: 'Source Serif Pro';
     background-color: rgba(121, 92, 52, 0.02);
     min-height: 100%;
@@ -25,7 +24,6 @@ a {
 }
 
 .header {
-    /* overflow: hidden; */
     padding: 20px 10px;
     margin-top: 1%;
     margin-right: 10%;
@@ -34,13 +32,10 @@ a {
 .header-right {
     float: right;
     margin-top: 5%;
-    /* margin-right: 10%; */
 }
 .header a {
-    /* line-height: 7em; */
     padding-left: 3em;
     font-size: 1.9vw;
-    /* background-color: #E5B36E;Z */
 
 }
 
@@ -48,10 +43,6 @@ a {
     color: #E5B36E;
 }
 .header img {
-    float: left;
-    margin-left: 2%;
-    /* width: 100px;
-    height: 95px; */
     width: 11%;
 }
 
