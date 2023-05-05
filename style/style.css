@@ -6,6 +6,11 @@
     --transbrown: rgba(75, 55, 28, 0.03);
 }
 
+/* Scroll to section */
+html {
+    scroll-behavior: smooth;
+}
+
 /* About me */
 .aboutme-container {
     display: grid;
