@@ -31,6 +31,29 @@ html {
     text-align: center;
 }
 
+.project-grid-1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+}
+
+.project-grid-kid {
+    display: grid;
+    grid-gap: 1px;
+}
+
+.project-grid-1 h3 {
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.project-grid-1 p {
+    font-size: 1.5vw;
+    line-height: 1.25;
+}
+
 .project-grid {
     margin-left: 10%;
     margin-right: 10%;
