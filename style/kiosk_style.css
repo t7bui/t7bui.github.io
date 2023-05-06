@@ -15,6 +15,29 @@ body {
     color: var(--grey);
 }
 
+.one-col-grid {
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    place-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1.5%;
+}
+.one-col-grid h1 {
+    font-size: 3.5vw;
+    color: var(--blue);
+}
+
+.one-col-grid h2 {
+    margin-top: 2%;
+    font-size: 2.5vw;
+}
+
+.one-col-grid p {
+    font-size: 1.4vw;
+}
+
+/* two col grid */
 .two-col-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
