@@ -15,6 +15,17 @@ body {
     color: var(--grey);
 }
 
+.kiosk_logo a {
+    width: 230px;
+    height: 195px;
+    background-image: url('images/kiosk_images/House/house_icon.png');
+    padding-left: 3em;
+}
+
+.kiosk_logo a:hover {
+    background-image: url("images/kiosk_images/House/house_icon_exit.png")
+
+}
 .one-col-grid {
     display: grid;
     /* grid-template-columns: repeat(2, 1fr); */
@@ -34,7 +45,7 @@ body {
 }
 
 .one-col-grid p {
-    font-size: 1.4vw;
+    font-size: 1.5vw;
 }
 
 /* two col grid */
