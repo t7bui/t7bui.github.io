@@ -1,0 +1,28 @@
+
+:root {
+    --blue: #3C90CD;
+    --grey: #434343;
+    --lightblue: #F7FCFF;
+    /* --transbrown: rgba(75, 55, 28, 0.03); */
+}
+
+body {
+    margin: 0;
+    font-family: 'Source Serif Pro';
+    background-color: var(--lightblue);
+    min-height: 100%;
+    color: var(--grey);
+}
+
+.two-col-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.two-col-grid > img {
+    padding-left: 20%;
+}
