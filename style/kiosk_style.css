@@ -29,7 +29,7 @@ body {
 .one-col-grid {
     display: grid;
     /* grid-template-columns: repeat(2, 1fr); */
-    place-items: center;
+    /* place-items: center; */
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 1.5%;
