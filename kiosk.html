@@ -2,26 +2,330 @@
 <html>
     <head>
         <link rel="stylesheet" href="style\nav.css">
-        <link rel="stylesheet" href="style\style.css">
+        <link rel="stylesheet" href="style/kiosk_style.css">
+        <!-- <link rel="stylesheet" href="style/style.css"> -->
+        <meta name="viewpoint" content="width=device-width, initial-scale=1" charset="UTF-8">
+        <link rel="icon" href="images/logos/thB_logo/thB_logo_1.png" type="image/icon type">
         <title>Thanh Bui</title>
     </head>
     <body>
+
+        <!-- Header with Navigation -->
         <div class="header">
-            <a href="index.html"><img alt="logo" src="images/thB_logo_1.png"></a>
+            <!-- <div><a class="kiosk_logo"></a></div> -->
+            <a href="index.html"><img alt="logo" style="rotate: z -18.31deg;" src="images/kiosk_images/House/house_icon_exit.png"></a>
             <div class="header-right">
                 <a href="index.html">Home</a>
-                <a href="project.html">Projects</a>
-                <a href="#">Resume</a>
+                <a href="#projects">Projects</a>
+                <a href="experience.html">Experience</a>
             </div>
         </div>
-        <!-- <div class="evc-img-container">
-            <img src="images\porfolio_image\6.PNG">
-            <img src="images\porfolio_image\1.PNG">
-            <img src="images\porfolio_image\4.PNG">
-            <img src="images\porfolio_image\3.PNG">
-            <img src="images\porfolio_image\5.PNG">
-            <img src="images\porfolio_image\2.PNG">
-            <img src="images\porfolio_image\7.PNG">
-        </div> -->
+
+        <!-- Introduction -->
+        <div id="intro" class="two-col-grid">
+            <div>
+                <div style="display: grid; grid-template-columns: 70% 1fr;">
+                    <h1>Welcome. <br>
+                        You have landed!
+                    </h1>
+                    <div style="margin-left: 0;margin-top: 10%;">
+                        <img src="images/kiosk_images/fallenstar_raccoon_fallpng.png" style="width: 80%; rotate: z -59.83deg;">
+                    </div>
+                    
+                </div> 
+                
+                <p style="font-size: 1.65vw;">
+                    <b>Goal:</b> To make Fallen Star more acessible despite the restrictions after COVID-19. <br><br>
+                    <b>Collaborators:</b> Griffen Bengard, Fiona Chen, James Olichney, Caitlin Zakkour <br> <br>
+                    <b>Responsibilities: </b>
+                    <ul>
+                        <li>Coordinated team and conduct weekly meetings to go over logistics to meet deadlines for project</li>
+                        <li>Conducted user research, users interview, and usability testing</li>
+                        <li>Led the product design by prototyping on Figma and iterating based on usability testing feedbacks</li>
+                    </ul>
+                </p>
+            </div>
+            <img style="width:95%"src="images/kiosk_images/fallenstar_house.png">
+        </div>
+        <div class="line-1"></div>
+
+        <!-- Overview -->
+        <div id="overview" class="two-col-grid">
+            <div>
+                <div style="display: grid; grid-template-columns: 20% 1fr;">
+                    <div style="margin-left: 0;margin-top: 10%;">
+                        <img src="images/kiosk_images/fallenstar_raccoon_sit.png" style="width: 80%; transform: scaleX(-1);">
+                    </div>
+                    <h1>Overview</h1>
+                </div> 
+
+                <h2>Background</h2>
+
+                <p>
+                    The University of California - San Diego (UCSD) is a beautiful campus that attracts 
+                    tourists with its many sightseeing attractions. One of the unique attractions of UCSD 
+                    is the Stuart Collection, a permanent collection of 20 site-specific sculptures commissioned 
+                    by leading contemporary artists and located throughout the campus. However, starting in 2020, 
+                    one of the sculptures called Fallen Star was closed to the public, restricting visitors' ability 
+                    to fully experience its unique intriguing interior. <br><br>
+
+                    To address this issue, we propose a plan to design and install a virtual tour kiosk that 
+                    helps users experience Fallen Star despite its restrictions. In addition to showcasing Fallen Star, 
+                    the kiosk also provides visitors with short descriptions and locations of the other sculptures in the 
+                    Stuart Collection, encouraging them to explore the campus and discover the other unique art pieces.
+                </p>
+                <div style="display: grid; grid-template-columns: 55% 1fr; column-gap: 0;">
+                    <h2>Problem Statement</h2>
+                    <div style="margin-left: 0;">
+                        <img src="images/kiosk_images/fallenstar_raccoon_fallpng.png" style="width: 30%;rotate: z -59.83deg;">
+                    </div>
+                </div> 
+                <p style="margin-top: 0;">
+                    How might we help UCSD prospective students and visitors experience Fallen Star despite the 
+                    restrictions and enhance their campus tour experience?
+                </p>
+            </div>
+            <img style="width:100%"src="images/kiosk_images/home_page 1.png">
+        </div>
+        <div class="line-1"></div>
+        
+        <!-- User Research -->
+        <div id="user-research" class="one-col-grid">
+            <div>
+                <div style="display: grid; grid-template-columns: 10% 1fr;">
+                    <div style="margin-left: 0;margin-top: 10%;">
+                        <img src="images/kiosk_images/fallenstar_raccoon_sit.png" style="width: 85%; transform: scaleX(-1);">
+                    </div>
+                    <h1>User Research</h1>
+                </div> 
+
+                <h2>Fieldwork/Observations</h2>
+
+                <p>
+                    To understand the user environment and identify suitable kiosk locations for installation, 
+                    we observed the activity around Fallen Star on the top floor of Irwin & Joan Jacobs School of Engineering. 
+                    After a few days of observation, we noticed that while many people pass by the building, 
+                    fewer individuals actually venture to the top floor to see the sculpture. As a result, we propose several 
+                    potential kiosk locations: inside the ground floor of the engineering school, outside the building, outside the 
+                    Fallen Star door on the top floor, or outside the Irwin & Joan Jacobs School of Engineering building on the ground floor.
+                </p>
+
+                <h2>Exploratory Interview</h2>
+                <p>
+                    In our informal interviews, we gathered insights from 8 individuals, including students and staff members, 
+                    about their experiences with Fallen Star. We discovered that while some students had limited exposure to the sculpture, 
+                    there was interest in a virtual tour. The suggestion to install a kiosk on the ground floor of Irwin & Joan Jacobs School 
+                    of Engineering emerged as a way to enhance accessibility. Additionally, participants emphasized the importance of incorporating
+                    a tour guide to provide insights into the artist's intention behind the sculpture.
+                </p>
+                <div style="display: grid; grid-template-columns: 12% 1fr; ">
+                    <h2>Persona</h2>
+                    <div style="margin-left: 0;">
+                        <img src="images/kiosk_images/fallenstar_raccoon_fallpng.png" style="width: 8%;rotate: z -59.83deg;">
+                    </div>
+                </div> 
+                <p style="margin-top: 0;">
+                    After conducting our research, we developed two personas to represent our target audience.
+                </p>
+            </div>
+        </div>
+        <div class="two-col-grid" style="column-gap: 10px;">
+            <div style="justify-content: center;">
+                <img src="images/kiosk_images/persona_1.png" style="width: 90%">
+                <p>
+                    Bobby, a first-year student who has not had a chance to visit Fallen Star, 
+                    is curious if there is a way for him to explore that sculpture.
+                </p>
+            </div>
+            
+            <div style="justify-content: center;">
+                <img src="images/kiosk_images/persona_2.png"style="width: 88%;">
+                <p>
+                    Jeff who is a senior, has been inside Fallen Star before but wants to 
+                    find ways to visit the sculpture again before graduation.
+                </p>
+            </div>
+        </div>
+        <div class="line-1"></div>
+
+        <!-- Ideation -->
+        <div id="ideation" class="one-col-grid">
+            <div>
+                <div style="display: grid; grid-template-columns: 10% 1fr;">
+                    <div style="margin-left: 0;margin-top: 10%;">
+                        <img src="images/kiosk_images/fallenstar_raccoon_sit.png" style="width: 85%; transform: scaleX(-1);">
+                    </div>
+                    <h1>Ideation</h1>
+                </div> 
+
+                <h2>Scenarios/Storyboard Sketches</h2>
+                <img style="width: 90%" src="images\kiosk_images\story_2.jpg">
+                <img style="width: 100%" src="images/kiosk_images/story_1.png">
+
+                <!-- Interview Insights -->
+                <div style="display: grid; grid-template-columns: 25% 1fr; ">
+                    <h2>Interview Insights</h2>
+                    <div style="margin-left: 0;">
+                        <img src="images/kiosk_images/fallenstar_raccoon_fallpng.png" style="width: 8%;rotate: z -59.83deg;">
+                    </div>
+                </div> 
+                <p style="margin-top: 0;">
+                    <ul style="font-size: 1.5vw;">
+                        <li>
+                            90% of interviewws suggested Kiosk should locate outside on the ground floor for more accessibility
+                        </li>
+                        <li>
+                            First and second-years, both undergraduates and graduate students, showed higher interest in Fallen Star. 
+                        </li>
+                        <li>
+                            Some participants preferred in-person appointments as it offers a more unique experience compared to virtual tours
+                        </li>
+                        <li>
+                            It was apparent that almost all people wanted to understand the meaning behind the art and 
+                            the artist’s inspiration and intention behind it
+                        </li>
+                    </ul>
+                </p>
+
+                <!-- Mission Statement -->
+                <div style="background-color: #ffd744b1; padding: 2%; border-radius: 20px; width: 80%; margin: auto">
+                    <div style="display: grid; grid-template-columns: 14% 1fr; margin-left: 15%; ">
+                        <div style="padding-top: 5%;">
+                            <img src="images/kiosk_images/fallenstar_raccoon_sit.png" style="width: 100%; transform: scaleX(-1);">
+                        </div>
+                        <h1 style="padding-left: 3%;">Mission Statement</h1>
+                    </div> 
+                    <p style="margin-top: 0; text-align: center; margin-left: 10%; margin-right: 10%; display: block;font-size: 1.7vw;">
+                        We aim to make <b style="color: var(--blue)">Do Ho Suh’s Fallen Star</b> more accessible to the public both conceptually and physically by 
+                        <span style="color:var(--blue)">sharing Suh’s artistic message and background</span>
+                            , situating visitors in the interior through the <span style="color: var(--blue)">virtual tour</span>, and facilitating <span style="color: var(--blue)">in-person appointments</span> 
+                            with UCSD students & staff through our Fallen Star Kiosk.
+                    </p>
+
+                </div>
+                
+            </div>
+        </div>
+        <div class="line-1"></div>
+
+        <!-- Prototype -->
+        <div id="prototype" class="one-col-grid">
+            <div>
+                <div style="display: grid; grid-template-columns: 10% 1fr;">
+                    <div style="margin-left: 0;margin-top: 10%;">
+                        <img src="images/kiosk_images/fallenstar_raccoon_sit.png" style="width: 85%; transform: scaleX(-1);">
+                    </div>
+                    <h1>Prototype</h1>
+                </div> 
+                
+                <h2>Low Fidelity</h2>
+                <p>
+                    With a good understanding of Fallen Star Kiosk's features, we each individually create low fidelity 
+                    wireframes of how each of us see Fallen Star.After looking at everyone's work, one of the teammate's 
+                    wireframe aligns with everyone's vision. Hence we decided to move forward with the outline below.
+                </p>
+                <div>
+                    <img src="images\kiosk_images\james_lofi.png" style="width: 100%">
+                </div>
+                <h2>High Fidelity</h2>
+                <div class="video-grid">
+                    <div>
+                        <h3 style="font-size: 2vw;">Virtual Tour</h3>
+                        <iframe style="width: 100%; height: 100%" src="https://drive.google.com/file/d/1XNNEAhQhwj_Fa40YOumvQyeFyJEfvn1S/preview" allow="autoplay"></iframe>
+                        <a href="https://drive.google.com/file/d/1XNNEAhQhwj_Fa40YOumvQyeFyJEfvn1S/view?usp=sharing" style="text-decoration: underline;" target="_blank">Link to Video</a>
+                    </div>
+                    <div>
+                        <h3 style="font-size: 2vw;">Stuart Collection</h3>
+                        <iframe style="width: 100%; height: 100%" src="https://drive.google.com/file/d/1XldHs6BN3MNfQQiGGxW3ozNY7bmKRS6F/preview" width="100%" allow="autoplay"></iframe>
+                        <a href="https://drive.google.com/file/d/1XldHs6BN3MNfQQiGGxW3ozNY7bmKRS6F/view?usp=sharing" target="_blank" style="text-decoration: underline;">Link to Video</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line-1"></div>
+
+        <!-- Usability testing -->
+        <div id="user_testing" class="one-col-grid">
+            <div>
+                <div style="display: grid; grid-template-columns: 10% 1fr;">
+                    <div style="margin-left: 0;margin-top: 10%;">
+                        <img src="images/kiosk_images/fallenstar_raccoon_sit.png" style="width: 85%; transform: scaleX(-1);">
+                    </div>
+                    <h1>Usability Testing</h1>
+                </div> 
+                
+                <!-- Hi-Fi Testing Problems -->
+                <h3 style="font-size: 2vw;">What need to improve:</h3>
+                
+                <!-- Exterior problems -->
+                <p>Introduction/Exterior Tour:</p>
+                <ul>
+                    <li><u>CONFUSION with White Arrow</u> - Many users thought the White Arrow would lead them inside the house</li>
+                    <li><u>BIG ISSUE with Drag Animation</u> - Many users thought it prompts them to drag the screen</li>
+                </ul>
+
+                <!-- Interior problems -->
+                <p>Interior Tour:</p>
+                <ul>
+                    <li>
+                        <u>NOT CLEAR with Home Button</u> - users did not know how to exit tour using Home Button
+                    </li>
+                    <li>
+                        <u>NOT VISIBLE with Garden Button</u> - users did not realize there is a Garden Button in the corner
+                    </li>
+                    <li>
+                        <u>Interesting Observation</u> - when stuck, users try to exit the house by tapping outside the door
+                    </li>
+                </ul>
+
+                <!-- Stuart Collection problems -->
+                <p>Stuart Collection Page:</p>
+                <ul>
+                    <li><u>Suggestions</u> - Add sculptures' locations and add option to enlarge photos</li>
+                    <li><u>Interesting Observation</u> - everyone's FIRST INSTINCT is to drag the page up</li>
+                    <li>BIG ISSUE with Gallery Flow - User 3 notices the gallery flow reset when clicking on </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        <!-- <div class="two-col-grid" style="column-gap: 10px;">
+            <div style="justify-content: center;">
+                <img src="images/kiosk_images/persona_1.png" style="width: 90%">
+                <p>
+                    Bobby, a first-year student who has not had a chance to visit Fallen Star, 
+                    is curious if there is a way for him to explore that sculpture.
+                </p>
+            </div>
+            
+            <div style="justify-content: center;">
+                <img src="images/kiosk_images/persona_2.png"style="width: 90%">
+                <p>
+                    Jeff who is a senior, has been inside Fallen Star before but wants to 
+                    find ways to visit the sculpture again before graduation.
+                </p>
+            </div> -->
+        </div>
+        
+        
+        
+
+
+
+        
+        <!-- <div style="display: grid; grid-template-columns: 10% 1fr; background-color: brown; align-items: center;">
+            <div style="background-color: bisque; margin-left:">
+                <img src="images/kiosk_images/fallenstar_raccoon_sit.png" style="width: 80%">
+            </div>
+            <div style="background-color: blanchedalmond;"class="talk-bubble tri-right round left-top">
+                <div class="talktext">
+                  <p>How might we help UCSD prospective students and visitors experience Fallen Star despite the 
+                    restrictions and enhance their campus tour experience?</p>
+                </div>
+            </div>
+        </div>  -->
+    
     </body>
 </html>

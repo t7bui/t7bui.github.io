@@ -1,0 +1,121 @@
+
+:root {
+    --blue: #3C90CD;
+    --grey: #434343;
+    --lightblue: #F7FCFF;
+    --pastelblue: #b2d6f0;
+    /* --transbrown: rgba(75, 55, 28, 0.03); */
+}
+
+body {
+    margin: 0;
+    font-family: 'Source Serif Pro';
+    background-color: var(--lightblue);
+    min-height: 100%;
+    color: var(--grey);
+}
+
+.kiosk_logo a {
+    width: 230px;
+    height: 195px;
+    background-image: url('images/kiosk_images/House/house_icon.png');
+    padding-left: 3em;
+}
+
+.kiosk_logo a:hover {
+    background-image: url("images/kiosk_images/House/house_icon_exit.png")
+
+}
+.one-col-grid {
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* place-items: center; */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1.5%;
+}
+.one-col-grid h1 {
+    font-size: 3.5vw;
+    color: var(--blue);
+}
+
+.one-col-grid h2 {
+    margin-top: 2%;
+    font-size: 2.5vw;
+}
+
+.one-col-grid p {
+    font-size: 1.5vw;
+}
+
+/* two col grid */
+.two-col-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1.5%;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 15%;
+    margin-top: 0;
+    column-gap: 100px;
+}
+
+.two-col-grid h1 {
+    font-size: 3.5vw;
+    color: var(--blue);
+}
+
+.two-col-grid h2 {
+    margin-top: 2%;
+    font-size: 2.5vw;
+}
+
+.two-col-grid p {
+    font-size: 1.4vw;
+}
+
+.two-col-grid ul {
+    font-size: 1.5vw;
+}
+/* .two-col-grid > img {
+    padding-left: 20%;
+} */
+
+/* chat bubble */
+.talk-bubble {
+    margin-left: 25%;
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: auto;
+    background-color: var(--pastelblue);
+}
+.round{
+    border-radius: 30px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+}
+.tri-right.left-top:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+    left: -20px;
+	right: auto;
+    top: 0px;
+	bottom: auto;
+	border: 22px solid;
+	border-color: var(--pastelblue) transparent transparent transparent;
+}
+/* talk bubble contents */
+.talktext{
+    padding: 1em;
+    text-align: left;
+    line-height: 1.5em;
+  }
