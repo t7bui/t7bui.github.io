@@ -58,6 +58,7 @@ body {
     margin-bottom: 1.5%;
 }
 
+<<<<<<< HEAD
 .video-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -66,6 +67,8 @@ body {
     column-gap: 100px;
 }
 
+=======
+>>>>>>> 25dca69cfedbca49b5cc5ecc94df77fd198b9725
 .two-col-grid h1 {
     font-size: 3.5vw;
     color: var(--blue);
@@ -83,9 +86,15 @@ body {
 .two-col-grid ul {
     font-size: 1.5vw;
 }
+<<<<<<< HEAD
 /* .two-col-grid > img {
     padding-left: 20%;
 } */
+=======
+.two-col-grid > img {
+    padding-left: 20%;
+}
+>>>>>>> 25dca69cfedbca49b5cc5ecc94df77fd198b9725
 
 /* chat bubble */
 .talk-bubble {
