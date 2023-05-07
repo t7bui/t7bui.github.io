@@ -61,7 +61,6 @@ body {
 .video-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 15%;
     margin-top: 0;
     column-gap: 100px;
 }
@@ -118,4 +117,17 @@ body {
     padding: 1em;
     text-align: left;
     line-height: 1.5em;
-  }
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#reflection ul {
+    font-size: 1.5vw;
+}
+
+#user-testing ul {
+    font-size: 1.5vw;
+}
