@@ -1,4 +1,12 @@
 
+body {
+    margin: 0;
+    font-family: 'Akshar';
+    background-color: var(--lightblue);
+    min-height: 100%;
+    color: var(--grey);
+}
+
 :root {
     --blue: #3C90CD;
     --grey: #434343;
@@ -7,13 +15,7 @@
     /* --transbrown: rgba(75, 55, 28, 0.03); */
 }
 
-body {
-    margin: 0;
-    font-family: 'Source Serif Pro';
-    background-color: var(--lightblue);
-    min-height: 100%;
-    color: var(--grey);
-}
+
 
 .kiosk_logo a {
     width: 230px;
