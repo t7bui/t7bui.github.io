@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Akshar';
+    font-family: 'Sora';
     background-color: rgba(121, 92, 52, 0.02);
     min-height: 100%;
     color: #4B371C;
@@ -35,12 +35,18 @@ a {
 }
 .header a {
     padding-left: 3em;
-    font-size: 1.9vw;
+    font-size: 1.75vw;
 
 }
 
 .header a:hover {
-    color: #E5B36E;
+    background-image: linear-gradient(to right, #EAB2D1, #E5B36E);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 .header img {
     width: 10%;
@@ -51,4 +57,14 @@ a {
     align-items: center;
     font-size: 50px;
     color: #4B371C; 
+}
+
+.gradient {
+    background-image: linear-gradient(to right, #EAB2D1, #E5B36E);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }

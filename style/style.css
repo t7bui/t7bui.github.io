@@ -1,4 +1,3 @@
-
 :root {
     --brown: #4B371C;
     --orange: #E5B36E;
@@ -9,6 +8,18 @@
 /* Scroll to section */
 html {
     scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+h2 {
+    font-size: 3.65vw;
+}
+
+p {
+    font-size: 1.75vw;
 }
 
 /* About me */
@@ -60,11 +71,11 @@ html {
     margin-bottom: 5%;
     display: grid;
     grid-template-columns: 280px 1fr;
-    background-color: var(--lightbrown);
+    background-image: linear-gradient(to right, rgba(234, 178,209, 0.5), rgba(229, 179, 110, 0.4));
+    box-shadow: 2px 5px 5px var(--lightbrown);
     border-radius: 80px;
     place-items: center;
     padding-right: 60px;
-    
 }
 
 .project-grid img {
@@ -77,12 +88,16 @@ html {
 }
 
 .text-container h3 {
-    font-size: 2.7vw;
+    font-size: 2.25vw;
 }
 
 .text-container p {
-    font-size: 2vw;
+    font-size: 1.75vw;
     line-height: 1.25;
+}
+
+.text-container a {
+    font-size: 1.5vw;
 }
 
 .project-button {
@@ -94,11 +109,12 @@ html {
     cursor: pointer;
     padding: 15px;
     border-radius: 12px;
+    border-width: 0.25vw;
     width: 25%;
 }
 
 .project-button:hover {
-    background-color: var(--orange);
+    background-image: linear-gradient(to right, #EAB2D1, #E5B36E);
 }
 
 .button:hover {

@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    font-family: 'Akshar';
+    font-family: 'Sora';
     background-color: var(--lightblue);
     min-height: 100%;
     color: var(--grey);
@@ -14,8 +14,6 @@ body {
     --pastelblue: #b2d6f0;
     /* --transbrown: rgba(75, 55, 28, 0.03); */
 }
-
-
 
 .kiosk_logo a {
     width: 230px;
