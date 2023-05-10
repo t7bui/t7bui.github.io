@@ -21,13 +21,13 @@ body {
     width: 230px;
     height: 195px;
     background-image: url('images/kiosk_images/House/house_icon.png');
-    padding-left: 3em;
+    /* s */
 }
 
-.kiosk_logo a:hover {
+/* .kiosk_logo a:hover {
     background-image: url("images/kiosk_images/House/house_icon_exit.png")
 
-}
+} */
 .one-col-grid {
     display: grid;
     /* grid-template-columns: repeat(2, 1fr); */
