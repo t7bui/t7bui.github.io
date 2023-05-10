@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: 'Sora';
+    /* font-family: 'Montserrat'; */
     background-color: var(--lightblue);
     min-height: 100%;
     color: var(--grey);
