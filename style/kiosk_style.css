@@ -12,6 +12,7 @@ body {
     --grey: #434343;
     --lightblue: #F7FCFF;
     --pastelblue: #b2d6f0;
+    --yellow: #FFD644;
     /* --transbrown: rgba(75, 55, 28, 0.03); */
 }
 
@@ -45,7 +46,11 @@ body {
 }
 
 .one-col-grid p {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
+}
+
+.one-col-grid li {
+    font-size: 1.3vw;
 }
 
 /* two col grid */
@@ -56,6 +61,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 1.5%;
+    column-gap: 3.5%;
 }
 
 .video-grid {
@@ -80,7 +86,7 @@ body {
 }
 
 .two-col-grid ul {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
 }
 /* .two-col-grid > img {
     padding-left: 20%;
