@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: 'Sora';
     /* font-family: 'Montserrat'; */
-    background-color: var(--lightblue);
+    background-color: rgba(121, 92, 52, 0.02);
     min-height: 100%;
     color: var(--grey);
 }
