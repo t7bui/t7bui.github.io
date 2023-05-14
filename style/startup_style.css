@@ -7,7 +7,7 @@
 
 body {
     margin: 0;
-    font-family: 'Montserrat', 'Paytone One';
+    font-family: 'Sora', 'Paytone One';
     /* font-family: 'Montserrat'; */
     background-color: white;
     min-height: 100%;
@@ -46,7 +46,7 @@ body {
 
 .one-col-grid h4 {
     font-family: 'Paytone One';
-    font-size: 1.5vw;
+    font-size: 1.75vw;
 }
 
 .one-col-grid p {
