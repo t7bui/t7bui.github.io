@@ -14,6 +14,12 @@ body {
     color: var(--darkgrey);
 }
 
+.center-image {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* .kiosk_logo a:hover {
     background-image: url("images/kiosk_images/House/house_icon_exit.png")
@@ -33,9 +39,9 @@ body {
     color: var(--orange);
 }
 
-.one-col-grid h2 {
-    margin-top: 2%;
-    font-size: 2.5vw;
+.one-col-grid h3 {
+    font-family: 'Paytone One';
+    font-size: 2vw;
 }
 
 .one-col-grid p {
@@ -70,9 +76,9 @@ body {
     color: var(--orange);
 }
 
-.two-col-grid h2 {
-    margin-top: 2%;
-    font-size: 2.5vw;
+.two-col-grid h3 {
+    font-family: 'Paytone One';
+    font-size: 2vw;
 }
 
 .two-col-grid p {
