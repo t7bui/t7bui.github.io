@@ -44,6 +44,11 @@ body {
     font-size: 2vw;
 }
 
+.one-col-grid h4 {
+    font-family: 'Paytone One';
+    font-size: 1.5vw;
+}
+
 .one-col-grid p {
     font-size: 1.4vw;
 }
