@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    font-family: 'Sora';
+    font-family: 'Montserrat', 'Paytone One';
     /* font-family: 'Montserrat'; */
     background-color: rgba(121, 92, 52, 0.02);
     min-height: 100%;
@@ -24,6 +24,7 @@ body {
     /* s */
 }
 
+
 /* .kiosk_logo a:hover {
     background-image: url("images/kiosk_images/House/house_icon_exit.png")
 
@@ -37,13 +38,19 @@ body {
     margin-bottom: 1.5%;
 }
 .one-col-grid h1 {
-    font-size: 3.5vw;
+    font-family: 'Paytone One';
+    font-size: 3vw;
     color: var(--blue);
 }
 
 .one-col-grid h2 {
-    margin-top: 2%;
-    font-size: 2.5vw;
+    font-family: 'Paytone One';
+    font-size: 2vw;
+}
+
+.one-col-grid h4 {
+    font-family: 'Paytone One';
+    font-size: 1.5vw;
 }
 
 .one-col-grid p {
@@ -73,13 +80,14 @@ body {
 }
 
 .two-col-grid h1 {
+    font-family: 'Paytone One';
     font-size: 3vw;
     color: var(--blue);
 }
 
 .two-col-grid h2 {
-    margin-top: 2%;
-    font-size: 2.5vw;
+    font-family: 'Paytone One';
+    font-size: 2vw;
 }
 
 .two-col-grid p {
