@@ -58,6 +58,7 @@ body {
 }
 
 .one-col-grid li {
+    margin-bottom: 5px;
     font-size: 1.3vw;
 }
 
@@ -95,6 +96,10 @@ body {
 
 .two-col-grid ul {
     font-size: 1.4vw;
+}
+
+.two-col-grid li {
+    margin-bottom: 5px;
 }
 /* .two-col-grid > img {
     padding-left: 20%;
