@@ -1,8 +1,8 @@
 
 body {
     margin: 0;
-    font-family: 'Sora', 'Paytone One' ;
-    /* font-family: 'Montserrat'; */
+    /* font-family: 'Sora', 'Paytone One' ; */
+    font-family: 'Montserrat', 'Lexend Mega';
     background-color: white;
     min-height: 100%;
     color: var(--grey);
@@ -38,18 +38,18 @@ body {
     /* margin-bottom: 1.5%; */
 }
 .one-col-grid h1 {
-    font-family: 'Paytone One';
+    font-family: 'Lexend Mega';
     font-size: 3vw;
     color: var(--blue);
 }
 
 .one-col-grid h2 {
-    font-family: 'Paytone One';
+    font-family: 'Lexend Mega';
     font-size: 2vw;
 }
 
 .one-col-grid h4 {
-    font-family: 'Paytone One';
+    font-family: 'Lexend Mega';
     font-size: 1.5vw;
 }
 
@@ -80,13 +80,13 @@ body {
 }
 
 .two-col-grid h1 {
-    font-family: 'Paytone One';
+    font-family: 'Lexend Mega';
     font-size: 3vw;
     color: var(--blue);
 }
 
 .two-col-grid h2 {
-    font-family: 'Paytone One';
+    font-family: 'Lexend Mega';
     font-size: 2vw;
 }
 
