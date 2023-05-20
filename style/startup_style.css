@@ -14,6 +14,10 @@ body {
     color: var(--darkgrey);
 }
 
+.circle {
+    background-image: 'images\startup\ellipse_1.png';
+}
+
 .center-image {
     width: 80%;
     display: block;
@@ -66,6 +70,13 @@ body {
     margin-right: 10%;
     margin-bottom: 1.5%;
     column-gap: 3.5%;
+}
+
+.two-col-grid img {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .video-grid {
