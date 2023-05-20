@@ -1,8 +1,8 @@
 
 :root {
-    --orange: #FF7000;
+    --purple: #BF6DFF;
     --darkgrey: #3B3B3B;
-    --lightorange: rgba(255, 112, 0, .38);
+    --lightpurple: #ECD3FF;
 }
 
 body {
@@ -36,7 +36,7 @@ body {
 .one-col-grid h1 {
     font-family: 'Lexend Mega';
     font-size: 3vw;
-    color: var(--orange);
+    color: var(--purple);
 }
 
 .one-col-grid h3 {
@@ -78,7 +78,7 @@ body {
 .two-col-grid h1 {
     font-family: 'Lexend Mega';
     font-size: 3vw;
-    color: var(--orange);
+    color: var(--purple);
 }
 
 .two-col-grid h3 {
