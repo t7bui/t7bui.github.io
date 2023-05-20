@@ -69,3 +69,8 @@ a {
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
+
+footer {
+    font-size: 1.25vw;
+    text-align: center;
+}
