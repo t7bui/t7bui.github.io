@@ -70,7 +70,12 @@ a {
     -moz-text-fill-color: transparent;
 }
 
-footer {
-    font-size: 1.25vw;
+footer p {
+    font-size: 2vw;
     text-align: center;
 }
+
+.footer-icons {
+    text-align: center;
+}
+
