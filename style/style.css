@@ -98,6 +98,12 @@ p {
     font-size: 2.5vw;
 }
 
+.text-container h4 {
+    font-family: 'Lexend Mega';
+    font-size: 1.75vw;
+
+}
+
 .text-container p {
     font-size: 1.75vw;
     line-height: 1.5;

@@ -65,7 +65,7 @@ a {
 }
 
 .gradient {
-    background-image: linear-gradient(to right, #EAB2D1, #E5B36E);
+    background-image: linear-gradient(to right, #E59F9B, #D7CACB);
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
