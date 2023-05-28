@@ -57,27 +57,6 @@ p {
     transform:scale(1.03);
 }
 
-.project-grid {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
-    display: grid;
-    grid-template-columns: 280px 1fr;
-    background-image: linear-gradient(to right, rgba(234, 178,209, 0.5), rgba(229, 179, 110, 0.4));
-    box-shadow: 2px 5px 5px var(--lightbrown);
-    border-radius: 80px;
-    place-items: center;
-    padding-right: 60px;
-    column-gap: 2.5%;
-    padding-left: 3%;
-}
-
-.project-grid > img {
-    border-radius: 10%;
-    width: 70%;
-    /* margin-left: 3%; */
-}
-
 .text-container {
     display: grid;
 }
@@ -90,7 +69,6 @@ p {
 .text-container h4 {
     font-family: 'Lexend Mega';
     font-size: 1.75vw;
-
 }
 
 .text-container p {
@@ -103,23 +81,6 @@ p {
 .text-container a {
     font-size: 1.5vw;
 }
-
-/* .project-button {
-    border-style: solid;
-    float: right;
-    text-align: center;
-    font-size: 2vw;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 12px;
-    border-width: 0.25vw;
-    width: 25%;
-}
-
-.project-button:hover {
-    background-image: linear-gradient(to right, #EAB2D1, #E5B36E);
-} */
 
 .button:hover {
     background-color: var(--orange);
