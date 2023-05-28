@@ -177,7 +177,6 @@ body {
 }
 
 .project-button {
-    float: right;
     text-align: center;
     font-size: 2vw;
     font-weight: bold;
@@ -187,6 +186,6 @@ body {
     border-width: 0.22vw;
     width: 20%;
     margin-right: 10%;
-    background-image: linear-gradient(to right, #EED7C5, #FFF2EC);
+    background-image: linear-gradient(to right, #E8C4B4, #EED7C5);
 }
 
