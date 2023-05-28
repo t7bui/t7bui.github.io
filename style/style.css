@@ -28,9 +28,9 @@ p {
 .aboutme-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    place-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    /* place-items: center; */
+    /* margin-left: 10%;
+    margin-right: 10%; */
 }
 
 .aboutme-container > img {
@@ -46,7 +46,7 @@ p {
     margin-left: 10%;
     margin-right: 10%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 100px;
 }
 
@@ -113,7 +113,7 @@ p {
     font-size: 1.5vw;
 }
 
-.project-button {
+/* .project-button {
     border-style: solid;
     float: right;
     text-align: center;
@@ -128,7 +128,7 @@ p {
 
 .project-button:hover {
     background-image: linear-gradient(to right, #EAB2D1, #E5B36E);
-}
+} */
 
 .button:hover {
     background-color: var(--orange);
