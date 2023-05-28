@@ -38,8 +38,8 @@ p {
 }
 
 .aboutme-container > img {
-    border-radius: 50%;
-    width: 75%;
+    /* border-radius: 50%; */
+    /* width: 75%; */
 }
 
 #projects {
