@@ -174,7 +174,6 @@ a {
 }
 
 .aboutme-button {
-    /* border-style: solid; */
     margin-top: 0;
     margin-right: 5%;
     margin-left: auto;
@@ -184,7 +183,5 @@ a {
     cursor: pointer;
     padding: 15px;
     color: #E59F9B;
-    /* width: 20%; */
-    /* background-image: linear-gradient(to bottom, #E8C4B4 0%, #FFF2EC 80%); */
 }
 

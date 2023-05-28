@@ -29,8 +29,12 @@ p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* place-items: center; */
-    /* margin-left: 10%;
-    margin-right: 10%; */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.aboutme-container p {
+    font-size: 1.5vw;
 }
 
 .aboutme-container > img {
