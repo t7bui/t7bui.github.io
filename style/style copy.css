@@ -1,0 +1,146 @@
+:root {
+    --brown: #4342D27;
+    --orange: #E5B36E;
+    --lightbrown: rgba(75, 55, 28, 0.2);
+    --transbrown: rgba(75, 55, 28, 0.03);
+    --grey: #282828;
+}
+
+/* Scroll to section */
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Lexend Mega';
+    font-size: 4vw;
+}
+
+h2 {
+    font-family: 'Lexend Mega';
+    font-weight: 900;
+    font-size: 2.5vw;
+}
+
+p {
+    font-size: 1vw;
+}
+
+#projects {
+    text-align: center;
+}
+
+.flex-container-parent {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 85px;
+    /* align-items: center; */
+}
+
+.flex-container-parent > div {
+    width: 50%;
+    column-gap: 85px;
+}
+
+.flex-container-parent img {
+    width:100%;
+}
+
+.tags {
+    border-radius: 8px;
+    padding: 2%;
+    background-color: #FFF2EC;
+    color: #E59F9B;
+    text-align: center;
+}
+.project-grid-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.project-grid-1 img {
+    transition: transform .5s ease;
+}
+
+.project-grid-1 img:hover {
+    transform:scale(1.03);
+}
+
+.text-container {
+    display: grid;
+}
+
+.text-container h3 {
+    font-family: 'Lexend Mega';
+    font-size: 2.5vw;
+}
+
+.text-container h4 {
+    /* font-family: 'Lexend Mega'; */
+    font-weight: 600;
+    font-size: 1.75vw;
+}
+
+.text-container p {
+    font-size: 1.75vw;
+    line-height: 1.5;
+    margin-top: 0;
+    font-weight: lighter;
+}
+
+.text-container a {
+    font-size: 1.5vw;
+}
+
+.button:hover {
+    background-color: var(--orange);
+}
+
+/* Image container for Home Page */
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* Create Image Link to Projects
+    - With a subtitle on the bottom see know what
+    kind of project was done
+    - No text decoration
+    Issues:
+    - Still have some margin issue with the subtitle
+*/
+.image-container a {
+    text-decoration: none;
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+    margin-left: 15%;
+}
+
+/* Issue: 
+    - Image shape stays normal if we define in main html page ...
+*/
+.image-container a > img {
+    width: 200px;
+    height: 160px;
+}
+
+.image-container a:hover > img {
+    opacity: 0.60;
+}
+
+.image-container a > p {
+    text-decoration: none;
+}
+
+.image-container a:visited {
+    color: black;
+}
+
+
+
