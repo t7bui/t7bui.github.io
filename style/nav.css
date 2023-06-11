@@ -1,6 +1,9 @@
 body {
     margin: 0;
-    font-family: 'Montserrat', 'Lexend Mega';
+    /* font-family: 'Montserrat', 'Lexend Mega'; */
+    /* font-family: sans-serif; */
+    /* font-family: 'Roboto'; */
+    font-family: 'Poppins' 'Caveat';
     /* font-family: 'Sora'; */
     background-color: white;
     min-height: 100%;
@@ -8,6 +11,7 @@ body {
 }
 
 a {
+    font-family: 'Poppins';
     text-decoration: none;
     color: #342D27;
 }

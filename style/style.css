@@ -12,18 +12,42 @@ html {
 }
 
 h1 {
-    font-family: 'Lexend Mega';
-    font-size: 4vw;
+    /* font-family: 'Lexend Mega'; */
+    /* font-family: 'Roboto'; */
+    /* font-family: 'Poppins'; */
+    font-family: 'Caveat';
+    font-size: 6vw;
 }
 
 h2 {
     /* font-family: 'Lexend Mega'; */
-    font-weight: 600;
-    font-size: 2.5vw;
+    /* font-family: 'Roboto'; */
+    font-family: 'Caveat';
+    /* font-weight: 600; */
+    font-size: 5vw;
 }
 
 p {
+    font-family: 'Poppins';
     font-size: 1vw;
+}
+
+/* About me */
+.aboutme-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* place-items: center; */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.aboutme-container p {
+    font-size: 1.5vw;
+}
+
+.aboutme-container > img {
+    /* border-radius: 50%; */
+    /* width: 75%; */
 }
 
 #projects {
@@ -37,12 +61,11 @@ p {
     display: flex;
     flex-direction: row;
     column-gap: 85px;
-    /* align-items: center; */
 }
 
 .flex-container-parent > div {
     width: 50%;
-    column-gap: 85px;
+    /* column-gap: 85px; */
 }
 
 .flex-container-parent img {
@@ -55,7 +78,9 @@ p {
     background-color: #FFF2EC;
     color: #E26A63;
     text-align: center;
+    font-family: 'Poppins';
 }
+
 .project-grid-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -76,12 +101,16 @@ p {
 }
 
 .text-container h3 {
-    font-family: 'Lexend Mega';
+    /* font-family: 'Lexend Mega'; */
+    /* font-family: 'Roboto'; */
+    font-family: 'Poppins';
     font-size: 2.5vw;
 }
 
 .text-container h4 {
     /* font-family: 'Lexend Mega'; */
+    /* font-family: 'Roboto'; */
+    font-family: 'Poppins';
     font-size: 2vw;
 }
 
