@@ -1,0 +1,159 @@
+@import "styke\nav-1.css";
+@import "style\shared.css";
+
+h1,h2 {
+    font-family: 'Caveat';
+}
+p {
+    font-family: 'Poppins';
+}
+
+.line {
+    border-bottom: 2px solid #D7CACB;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.welcome-msg {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5%;
+}
+.welcome-msg h1 {
+    font-family: 'Caveat';
+    margin: 0;
+    font-size: 5vw;
+}
+.welcome-msg p {
+    margin-top: 15px;
+    font-size: 1.75vw;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 0% 5%;
+}
+
+.mini-project {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.mini-project img {
+    width: 40%;
+}
+
+.text-box {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    flex-direction: column;
+}
+
+.text-box h2 {
+    font-size: 4.5vw;
+    margin: 0;
+}
+.text-box a {
+    text-decoration: none;
+    color: var(--brown);
+}
+.text-box a:hover {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.25s ease;
+    color: var(--pink);
+}
+.text-box p {
+    margin: 0;
+    font-size: 1.5vw;
+}
+
+.tags {
+    display: flex; 
+    padding-left: 0;
+    flex: rows;
+    /* background-color: black; */
+    column-gap: 10px; 
+    font-size: 1vw;
+}
+
+.tags li {
+    list-style: none;
+    border-radius: 8px;
+    padding: 2%;
+    background-color: #FFF2EC;
+    color: #E26A63;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.footer-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer-icons {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+/* About me */
+.aboutme-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    padding: 5% 5%;
+}
+
+.aboutme-container h1 {
+    font-size: 5vw;
+}
+
+.aboutme-container p {
+    font-size: 1.5vw;
+}
+
+.aboutme-container > img {
+    /* border-radius: 50%; */
+    /* width: 75%; */
+}
+
+.text-container {
+    display: grid;
+    padding: 5% 5%;
+}
+
+.text-container h3 {
+    /* font-family: 'Lexend Mega'; */
+    /* font-family: 'Roboto'; */
+    font-family: 'Poppins';
+    font-size: 2.5vw;
+}
+
+.text-container h4 {
+    /* font-family: 'Lexend Mega'; */
+    /* font-family: 'Roboto'; */
+    font-family: 'Poppins';
+    font-size: 2vw;
+}
+
+.text-container p {
+    font-size: 1.75vw;
+    line-height: 1.5;
+    margin-top: 0;
+    font-weight: lighter;
+}
+
+.text-container a {
+    font-size: 1.5vw;
+}
+

@@ -3,12 +3,13 @@
     <head>
         <meta name="viewpoint" content="width=device-width, initial-scale=1" charset="UTF-8">
 
-        <link rel="stylesheet" href="style\nav.css">
-        <link rel="stylesheet" href="style\style.css">
-        <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" href="style\nav-1.css">
+        <link rel="stylesheet" href="style\body.css">
+        <link rel="stylesheet" href="style\shared.css">
 
         <link rel="icon" href="images\logos\thB_logo\thB_logo_1.png" type="image/icon type">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
         <title>Portfolio Homepage</title>
     </head>
     <body>
@@ -17,78 +18,59 @@
             <i class="arrow up"></i>
         </button>
         <script src="script.js"></script>
-
-        <div class="header">
-            <a href="index.html"><img style="margin-left: 4%" alt="logo" src="images\logos\thB_logo\thB_logo_1.png"></a>
-            <div class="header-right">
-                <a href="index.html">Work</a>
-                <a href="about.html">About</a>
-            </div>
-        </div>
         
-
-        <!-- Introduction -->
-        <div id="intro" class="text-container">
-            <div style="margin-left: 15%; margin-right: 15%;">
-                
-                <h1 style="margin-bottom: 0;">Welcome. <br>I'm Thanh!</h1>
-                
-                <h4>
-                    As a designer, my passion lies in creating <span style="color:#E59F9B">inclusive designs</span> that effectively communicate 
-                    with diverse audiences, while exploring and understanding concepts of <span style="color:#E59F9B">equity, inclusion, 
-                        and belonging</span>.
-                </h4> <br><br>
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images\logos\thB_logo\thB_logo_1.png"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
         </div>
 
-        <!-- Plauto -->
-        <!-- <a href="https://t7bui.notion.site/Plauto-Plan-Automatically-9906f037827f44b185c929c4f0878a55?pvs=4" target="_blank"> -->
-        <a href="#" target="_blank">
-            <div class="flex-container-parent">
-                <div>
-                    <img src="images\startup\home_plauto.png">
-                </div>
-                <div>
-                    <h2 style="margin-bottom: 0;">Plauto</h2>
-                    <div style="display: flex; flex-wrap: wrap; column-gap: 10px; row-gap: 10px; font-size: 1.1vw;margin-bottom: 5%;">
-                        <div class="tags">Project Management</div>
-                        <div class="tags">Graphic Design</div>
-                        <div class="tags">Startup</div>
-                        <div class="tags">UI/UX</div> 
-                    </div>
-                    
-                    <p style="font-size: 1.7vw;">Provide individuals new and less tedious way of planning projects </p>
-                </div>
-            </div>
-        </a>
-        
-        
-        <!-- Kiosk -->
-        <a href="https://t7bui.notion.site/Fallen-Star-Kiosk-4e091993b5b34af385875947de0e28b8?pvs=4" target="_blank">
-        <!-- <a href="#" target="_blank"> -->
-            <div class="flex-container-parent">
-                <div>
-                    <img src="images\kiosk_images\fallen_kiosk_2.jpg">
-                </div>
-                <div>
-                    <h2 style="margin-bottom: 0;">Fallen Star Kiosk</h2>
-                    <div style="display: flex; flex-wrap: wrap; column-gap: 10px; row-gap: 10px; font-size: 1.1vw; margin-bottom: 5%;">
-                        <div class="tags">Project Management</div>
-                        <div class="tags">Physical Kiosk</div>
-                        <div class="tags">UI/UX</div>
-                    </div>
-                    <p style="font-size: 1.7vw;">Help UCSD visitors and new students get the most out of the campus tour experience</p>
+        <div class="welcome-msg">
+            <h1>Hello <br>
+            I'm Thanh!</h1>
+            <p>As a designer, my passion lies in creating <span style="background-color: var(--lightpink);">inclusive designs</span> that 
+                effectively communicate with diverse audiences, while incorporating 
+                concepts of <span style="background-color: var(--lightpink);">equity, inclusion, and belonging.</span></p>
+        </div>
+
+        <div class="projects">
+            <div class="mini-project">
+                <img src="images\startup\home_plauto.png">
+                <div class="text-box">
+                    <a href="#"><h2>Plauto</h2></a>
+                    <ul class="tags">
+                        <li>Project Management</li>
+                        <li>Graphic design</li>
+                        <li>Startup</li>
+                        <li>UI/UX</li>
+                    </ul>
+                    <p>Provide individuals new and less tedious way of planning project.</p>
                 </div>
             </div>
-        </a>
-        
-        
+
+            <div class="mini-project">
+                <img src="images\kiosk_images\fallen_kiosk_2.jpg">
+                <div class="text-box">
+                    <a href="https://t7bui.notion.site/Fallen-Star-Kiosk-4e091993b5b34af385875947de0e28b8?pvs=4"><h2>Fallen Star Kiosk</h2></a>
+                    <ul class="tags">
+                        <li>Project Management</li>
+                        <li>Physical Kiosk</li>
+                        <li>UI/UX</li>
+                    </ul>
+                    <p>Help UCSD visitors and new students get the most out of the campus tour experience</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Start -->
+        <div class="line" style="margin-bottom: 0;"></div>
+        <!-- <a class="right-button">About Me</a> -->  
     </body>
 
-    <!-- Footer Start -->
-    <div class="line" style="margin-bottom: 0;"></div>
-    <a style="font-size: 1.85vw;" href="about.html" class="aboutme-button">
-        About Me<i class="arrow-1 right"></i>
-    </a>
     <footer>
         <div class="footer-icons">
             <a target="_blank" href="https://www.linkedin.com/in/thbui/">

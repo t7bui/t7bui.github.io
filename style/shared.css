@@ -1,0 +1,19 @@
+:root {
+    --brown: #342D27;
+    --orange: #E5B36E;
+    --lightbrown: rgba(75, 55, 28, 0.2);
+    --transbrown: rgba(75, 55, 28, 0.03);
+    --grey: #282828;
+    --pink: #E59F9B;
+    --lightpink: #FCE3E2;
+}
+
+body {
+    font-family: 'Poppins' 'Caveat';
+    background-color: white;
+    min-height: 100%;
+    color: #342D27;
+    margin: 0 10%; 
+}
+
+

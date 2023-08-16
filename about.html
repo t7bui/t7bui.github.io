@@ -3,24 +3,31 @@
     <head>
         <meta name="viewpoint" content="width=device-width, initial-scale=1" charset="UTF-8">
 
-        <link rel="stylesheet" href="style\nav.css">
-        <link rel="stylesheet" href="style\style.css">
-        <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" href="style\nav-1.css">
+        <link rel="stylesheet" href="style\body.css">
+        <link rel="stylesheet" href="style\shared.css">
 
         <link rel="icon" href="images\logos\thB_logo\thB_logo_1.png" type="image/icon type">
-        <title>About Me</title>
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+        <title>Portfolio Homepage</title>
     </head>
     <body>
-        <div class="header">
-            <a href="index.html"><img style="margin-left: 4%" alt="logo" src="images\logos\thB_logo\thB_logo_1.png"></a>
-            <div class="header-right">
-                <a href="index.html">Work</a>
-                <a href="about.html">About</a>
+        <button style="text-align: center;" onclick="topFunction()" id="myBtn" title="Go to top">
+            <i class="arrow up"></i>
+        </button>
+        <script src="script.js"></script>
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images\logos\thB_logo\thB_logo_1.png"></a>
             </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
         </div>
 
-        <h1 style="margin-bottom: 0; margin-left: 10%;">Hi there. I'm Thanh!</h1>
+        <h1 style="margin-bottom: 0; font-size: 5vw; padding-left: 5%;">Hi there. I'm Thanh!</h1>
         <div class="aboutme-container">
             <div>
                 <p style="margin-top: 0;">
@@ -40,7 +47,7 @@
 
         </div>
 
-        <div class="text-container" style="margin-left: 10%; margin-right: 10%;">
+        <div class="text-container">
             <h3 style="font-size: 4vw; font-family: 'Caveat'; margin-bottom: 2%;">Why do I Enjoy Designing</h3>
             <p style="font-size: 1.5vw;">
                 Designing, to me, is not only a means of communication but also a way to connect with individuals who 
@@ -58,10 +65,10 @@
             </p>
         </div>
 
-        <div class="text-container" style="margin-left: 10%; margin-right: 10%;">
+        <div class="text-container">
             <h3 style="font-size: 4vw; font-family: 'Caveat'; margin-bottom: 2%;">Creating My Brand</h3>
             <div class="aboutme-container" style="margin-left: 0;">
-                <img style="width:65%" src="images\logos\thB_logo\thB_logo_about.png">
+                <!-- <img style="width:65%" src="images\logos\thB_logo\thB_logo_about.png"> -->
                 <div>
                     <!-- <p>TBD</p>
                     <p>TBD</p>
@@ -73,8 +80,6 @@
                
             </p>
         </div>
-
-        
     </body>
 
     <div class="line"></div>
