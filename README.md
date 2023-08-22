@@ -1,3 +1,3 @@
-# thbui
+# Thanh Bui Portfolio
 
-Currently using HTML & CSS to create the website. Will fix code again when learning more about Javascript
+Access link: https://t7bui.github.io/
