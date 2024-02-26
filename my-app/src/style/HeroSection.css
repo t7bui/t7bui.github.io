@@ -1,0 +1,99 @@
+@import './main.css';
+
+#home-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 5% 5% 5% 5%;
+    column-gap: 10px;
+    align-items: center;
+}
+#home-container .profile-img {
+    display: flex;
+    order: 2;
+    flex: 1;
+
+}
+#home-container .profile-img img {
+    width: 105%;
+}
+#home-container .welcome-msg {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 10px;
+    order: 1;
+    flex: 1;
+}
+#home-container .welcome-msg h1 {
+    font-weight: 800;
+    font-size: 4rem;
+    font-family: 'Quicksand', sans-serif;
+}
+#home-container .welcome-msg p {
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+.name {
+    font-family: 'Architects Daughter', cursive;
+}
+
+#home-container .other-logos {
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    column-gap: 5%;
+}
+
+.other-logos a {
+    width: 18%;
+}
+
+.other-logos img {
+    width: 100%;
+}
+
+@media(max-width: 1300px) {
+    #home-container .welcome-msg h1 {
+        font-size: 3rem;
+    }
+    #home-container .welcome-msg p {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 800px) {
+    #home-container .welcome-msg h1 {
+        font-size: 2rem;
+    }
+    #home-container .welcome-msg p {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 500px) {
+    #home-container {
+        flex-direction: column;
+        text-align: left;
+    }
+    #home-container .profile-img {
+        justify-content: center;
+        order: 1;
+        flex: 1;
+    }
+    #home-container .profile-img img {
+        width: 60%;
+    }
+    #home-container .welcome-msg {
+        order: 2;
+        flex: 1;
+        row-gap: 5px;
+        padding: 0 5%;
+    }
+    #home-container .welcome-msg h1 {
+        font-size: 2.5rem;
+    }
+    #home-container .welcome-msg p {
+        font-size: 1rem;
+    }
+}

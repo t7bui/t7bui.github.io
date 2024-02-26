@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&family=Quicksand&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --brown: #342D27;
+    --orange: #E5B36E;
+    --lightbrown: rgba(75, 55, 28, 0.2);
+    --transbrown: rgba(75, 55, 28, 0.03);
+    --grey: #282828;
+    --pink: #E59F9B;
+    --lightpink: #FCE3E2;
+    --projectBackground: #FCF9F1; 
+    --projectBorder: #605548;
+    --tagBackground: #DCD8B0;
+    --orangeArt: #E5A98A;
+}
+body {
+    position: relative;
+    z-index: 0;
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--brown);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px 80px;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    z-index: 5;
+}
+
+nav img {
+    width: 100px;
+}
+
+#navbar {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 10%;
+    z-index: 5;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 125%;
+    font-weight: 600;
+    color: var(--brown);
+    transition: 0.2s ease-in-out;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: var(--pink);
+}
+
+#navbar li a:hover::after,
+#navbar li a.active::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: var(--pink);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#mobile {
+    display: none;
+}
+
+#mobile i {
+    color: var(--brown);
+    align-items: center;
+}
+
+button {
+    display: flex;
+    background-color: transparent;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 8px;
+    border: 2px solid var(--projectBorder);
+    border-radius: 8px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+}
+button:hover {
+    background-color: var(--tagBackground);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    backdrop-filter: blur(5px);
+    transition: 1s ease-in;
+    z-index: 2;
+}
+.overlay.active {
+    display: block;
+}
+
+.blur {
+    background-color: var(--lightbrown);
+    z-index: 4;
+}
+
+@media screen and (max-width: 769px) {
+    #mobile {
+        display: block;
+    }
+
+    #mobile i {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 130px;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background-color: white;
+        box-shadow:0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 40px 0 0 10px;
+        transition: 0.3s ease-in-out;
+    }
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li{
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 500px) {
+    nav{
+        padding: 10px 50px;
+        height: 85px;
+    }
+    nav img {
+        display: none;
+    }
+    #navbar {
+        top: 85px;
+    }
+}
