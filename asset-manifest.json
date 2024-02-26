@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.47ff29cf.css",
+    "main.js": "/static/js/main.a8cbe6a2.js",
+    "static/media/thanh-helen-draw.png": "/static/media/thanh-helen-draw.0c791141ae4da023673d.png",
+    "static/media/plauto_logo.png": "/static/media/plauto_logo.4092b02ab638bc0e5756.png",
+    "static/media/thB_logo_1.png": "/static/media/thB_logo_1.215279c5f2dab94e6a42.png",
+    "static/media/fallen_kiosk_2.jpg": "/static/media/fallen_kiosk_2.1ff356685599a2c929e2.jpg",
+    "static/media/plauto_laptop.png": "/static/media/plauto_laptop.d434d0b900b326139c9d.png",
+    "index.html": "/index.html",
+    "main.47ff29cf.css.map": "/static/css/main.47ff29cf.css.map",
+    "main.a8cbe6a2.js.map": "/static/js/main.a8cbe6a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47ff29cf.css",
+    "static/js/main.a8cbe6a2.js"
+  ]
+}
