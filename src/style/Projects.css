@@ -24,6 +24,16 @@
     color: var(--brown);
 }
 
+.test-proj p {
+    text-decoration: none;
+    color: var(--brown);
+}
+
+.test-proj p:hover {
+    text-decoration: none;
+    color: var(--brown);
+}
+
 .green {
     position: absolute;
     top: 0;
