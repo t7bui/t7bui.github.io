@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.f10000c6.css",
-    "main.js": "/static/js/main.0fd6e37c.js",
+    "main.css": "/static/css/main.8f6abe33.css",
+    "main.js": "/static/js/main.39727026.js",
     "static/media/thanh-helen-draw.png": "/static/media/thanh-helen-draw.0c791141ae4da023673d.png",
+    "static/media/menopond_mockup.png": "/static/media/menopond_mockup.bbab34c00c5aaafb832a.png",
+    "static/media/Plauto.png": "/static/media/Plauto.90269d8bf41585c3b6b9.png",
     "static/media/plauto_logo.png": "/static/media/plauto_logo.4092b02ab638bc0e5756.png",
     "static/media/thB_logo_1.png": "/static/media/thB_logo_1.215279c5f2dab94e6a42.png",
     "static/media/fallen_kiosk_2.jpg": "/static/media/fallen_kiosk_2.1ff356685599a2c929e2.jpg",
-    "static/media/plauto_laptop.png": "/static/media/plauto_laptop.d434d0b900b326139c9d.png",
     "index.html": "/index.html",
-    "main.f10000c6.css.map": "/static/css/main.f10000c6.css.map",
-    "main.0fd6e37c.js.map": "/static/js/main.0fd6e37c.js.map"
+    "main.8f6abe33.css.map": "/static/css/main.8f6abe33.css.map",
+    "main.39727026.js.map": "/static/js/main.39727026.js.map"
   },
   "entrypoints": [
-    "static/css/main.f10000c6.css",
-    "static/js/main.0fd6e37c.js"
+    "static/css/main.8f6abe33.css",
+    "static/js/main.39727026.js"
   ]
 }
