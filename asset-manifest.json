@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8f6abe33.css",
-    "main.js": "/static/js/main.39727026.js",
+    "main.js": "/static/js/main.99ee16a5.js",
     "static/media/thanh-helen-draw.png": "/static/media/thanh-helen-draw.0c791141ae4da023673d.png",
     "static/media/menopond_mockup.png": "/static/media/menopond_mockup.bbab34c00c5aaafb832a.png",
     "static/media/Plauto.png": "/static/media/Plauto.90269d8bf41585c3b6b9.png",
@@ -10,10 +10,10 @@
     "static/media/fallen_kiosk_2.jpg": "/static/media/fallen_kiosk_2.1ff356685599a2c929e2.jpg",
     "index.html": "/index.html",
     "main.8f6abe33.css.map": "/static/css/main.8f6abe33.css.map",
-    "main.39727026.js.map": "/static/js/main.39727026.js.map"
+    "main.99ee16a5.js.map": "/static/js/main.99ee16a5.js.map"
   },
   "entrypoints": [
     "static/css/main.8f6abe33.css",
-    "static/js/main.39727026.js"
+    "static/js/main.99ee16a5.js"
   ]
 }
